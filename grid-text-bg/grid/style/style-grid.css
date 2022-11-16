@@ -1,0 +1,120 @@
+:root{
+    --bg-x-color:#939878;
+    --btn-primary:#CF6F49;
+    --btn-border:#E7E8E3;
+    --box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    --col-1: calc(100%/12*1);
+    --col-2: calc(100%/12*2);
+    --col-3: calc(100%/12*3);
+    --col-4: calc(100%/12*4);
+    --col-5: calc(100%/12*5);
+    --col-6: calc(100%/12*6);
+    --col-7: calc(100%/12*7);
+    --col-8: calc(100%/12*8);
+    --col-9: calc(100%/12*9);
+    --col-10: calc(100%/12*10);
+    --col-11: calc(100%/12*11);
+    --col-12: calc(100%/12*12);
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0px 15px;
+    margin: auto;
+} 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-1{
+    width: var(--col-1);
+    padding: 0 15px;
+}
+.col-2{
+    width: var(--col-2);
+    padding: 0px 15px;
+}
+.col-3{
+    width: var(--col-3);
+    padding: 0px 15px;  
+}
+.col-4 {
+    width: var(--col-4);
+    padding: 0px 15px;
+}
+.col-5{
+    width: var(--col-5);
+    padding: 0px 15px;  
+}
+.col-6{
+    width: var(--col-6);
+    padding: 0px 15px;  
+}
+.col-7{
+    width: var(--col-7);
+    padding: 0px 15px;  
+}
+.col-8{
+    width: var(--col-8);
+    padding: 0px 15px;  
+}
+.col-9{
+    width: var(--col-9);
+    padding: 0px 15px;  
+}
+.col-10{
+    width: var(--col-10);
+    padding: 0px 15px;  
+}
+.col-11{
+    width: var(--col-11);
+    padding: 0px 15px;  
+}
+.col-12 {
+    width: var(--col-12);
+    padding: 0px 15px;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+ .justify-end{
+     justify-content: end;
+ }
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+
+
+
+
+/* ========================================================================== */
+
+.card{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    box-shadow: var(--box-shadow);
+    margin: 10px 0;
+}
